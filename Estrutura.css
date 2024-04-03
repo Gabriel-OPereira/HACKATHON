@@ -4,21 +4,18 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    font-size: 62,5%;
 }
-
 html {
     scroll-behavior: smooth;
 }
     body {
-        background-color:rgba(63, 72, 29, 1);
-
+        background-color: #FFFFFF;
     }
 
 .container { 
-    width: 217px;
+    width: 220px;
     height: 780px;
-    border: 2px black solid;
+    
     position: fixed;
     top: 0;
     
@@ -95,12 +92,11 @@ ul li {
     height: 369.413px;
     flex-shrink: 0;
     border-radius: 40px;
-    background: rgba(189, 142, 0, 1);
+    background: #76bdfe;
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
     margin: 60px;
     padding: 20px;
-    background-image: url(/HACKATHON/imagem/fundocard.png);
-    background-position: -30px;
+
     /*     text-align: center;
  */
 }
@@ -112,9 +108,9 @@ ul li {
     width: 180.411px;
     height: 180.411px;
     flex-shrink: 0;
+    background: #add6fc;
     border-radius: 100px;
     margin-top: -55px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .blue-circle img {
@@ -142,7 +138,6 @@ ul li {
     border-radius: 15px;
     border: 1px solid #fff;
     background: #add6fc;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 h4 {
@@ -166,7 +161,7 @@ h4 {
     position: absolute;
     color: #000;
     font-family: Rajdhani;
-    font-size: 24px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -192,7 +187,6 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .blue-atk {
@@ -205,7 +199,6 @@ h4 {
     position: relative;
     margin: 100px;
     left: -80px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .blue-atk p {
@@ -219,7 +212,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     text-decoration-line: underline;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .blue-atk-charge {
@@ -233,7 +225,6 @@ h4 {
     margin: 100px;
     left: -80px;
     top: -90px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .blue-atk-charge p {
@@ -259,7 +250,6 @@ h4 {
     margin: 70px;
     left: 60px;
     top: -270px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .blue-sinopse p {
@@ -284,12 +274,10 @@ h4 {
     height: 369.413px;
     flex-shrink: 0;
     border-radius: 40px;
-    background: rgba(189, 142, 0, 1);
+    background: #fb6b6b;
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
     margin: 60px;
     padding: 20px;
-    background-image: url(/HACKATHON/imagem/fundocard.png);
-    background-position: -30px;
     /*     text-align: center;
  */
 }
@@ -304,7 +292,6 @@ h4 {
     background: #ff8a8a;
     border-radius: 100px;
     margin-top: -55px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .red-circle img {
@@ -323,7 +310,6 @@ h4 {
     border-radius: 15px;
     border: 1px solid #fff;
     background: #ff8a8a;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .red-number {
@@ -348,7 +334,6 @@ h4 {
     position: relative;
     left: 90px;
     bottom: -40px;
-    background-color: rgba(255, 255, 255, 0.30);
 
     color: #000;
     text-align: center;
@@ -369,7 +354,6 @@ h4 {
     position: relative;
     margin: 100px;
     left: -80px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .red-atk p {
@@ -396,7 +380,6 @@ h4 {
     margin: 100px;
     left: -80px;
     top: -90px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .red-atk-charge p {
@@ -422,7 +405,6 @@ h4 {
     margin: 70px;
     left: 60px;
     top: -270px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .red-sinopse p {
@@ -447,12 +429,10 @@ h4 {
     height: 369.413px;
     flex-shrink: 0;
     border-radius: 40px;
-    background: rgba(189, 142, 0, 1);
+    background: #48d0b0;
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
     margin: 60px;
     padding: 20px;
-    background-image: url(/HACKATHON/imagem/fundocard.png);
-    background-position: -30px;
     /*     text-align: center;
  */
 }
@@ -467,8 +447,6 @@ h4 {
     background: #67dbbf;
     border-radius: 100px;
     margin-top: -55px;
-    background-color: rgba(255, 255, 255, 0.30);
-    
 }
 
 .green-circle img {
@@ -487,7 +465,6 @@ h4 {
     border-radius: 15px;
     border: 1px solid #fff;
     background: #67dbbf;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .green-number {
@@ -512,7 +489,6 @@ h4 {
     position: relative;
     left: 100px;
     bottom: -40px;
-    background-color: rgba(255, 255, 255, 0.30);
 
     color: #000;
     text-align: center;
@@ -535,7 +511,6 @@ h4 {
     position: relative;
     margin: 90px;
     left: -70px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .green-atk p {
@@ -562,7 +537,6 @@ h4 {
     margin: 90px;
     left: -70px;
     top: -80px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .green-atk-charge p {
@@ -588,7 +562,6 @@ h4 {
     margin: 70px;
     left: 60px;
     top: -250px;
-    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .green-sinopse p {
@@ -612,7 +585,7 @@ h4 {
     position: absolute;
 }
 
-aside {
+main {
     
     position: absolute;
     
@@ -626,8 +599,6 @@ article {
 .letras {
     margin-left: 100px;
     position: absolute;
-    color:rgba(255, 255, 255, 1);
-    
 }
 
 nav {
@@ -682,10 +653,6 @@ nav {
     margin-left: 6px;
 }
 
-.efeito-btn img {
-    margin-left: 5px;
-}
-
 .pokemongo {
     background-color: #2A6EB6;
     color: white;
@@ -698,72 +665,19 @@ nav {
   }
 
   footer {
-    width: 1300px;
-    height: 83px;
+    width: 1290px;
+    height: 82px;
     flex-shrink: 0;
-    margin-left: -5px;
+    margin-right: 2px;
     position: absolute;
-   
+    margin-top: 12rem;
   }
-
   .rodape {
     margin-top: 40px;
-    margin-right: 70px;
+    margin-right: 30px;
+    margin-left: 530px;
   }
 
-  .blue-card p {
-    color: #000;
-font-family: Poppins;
-font-size: 7px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-   }
-
-   .red-card p {
-    color: #000;
-font-family: Poppins;
-font-size: 7px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-   }
-
-   .green-card p {
-    color: #000;
-font-family: Poppins;
-font-size: 7px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-   }
-
-     .blue-card h4 {
-color: #000;
-text-align: center;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-   }
-
-   .red-card h4 {
-color: #000;
-text-align: center;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-   }
-
-   .green-card h4 {
-color: #000;
-text-align: center;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-   }
+  .senai {
+    margin-left: 530px;
+  }
