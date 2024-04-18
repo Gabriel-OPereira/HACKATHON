@@ -6,4 +6,5 @@ A proposta consistia em desenvolver uma Pokédex que mostrasse as habilidades, t
 
 Utilizamos as seguintes tecnologias: HTML, CSS e Figma.
 
-OBS: Site 85% responsivo, alguns detalhes ainda devem serem feitos, se for visualizar pelo celular, ativar o modo (para computador).
+OBS: Site realizado para computadores. 85% responsivo, alguns detalhes ainda devem serem feitos, se for visualizar pelo celular, ativar o modo (para computador).
+  Assim que possível irei atualizar ele para a sua versão mobile e aplicar novos conhecimentos adquiridos da faculdade e outros cursos intensivos.
