@@ -699,7 +699,7 @@ nav {
     width: 1300px;
     height: 82px;
     flex-shrink: 0;
-    margin-right: 2px;
+    margin-right: 10px;
     position: absolute;
     margin-top: 12rem;
   }
