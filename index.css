@@ -1,26 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Oxanium:wght@300;400;700&family=Rajdhani&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Poppins:wght@700&display=swap');
-* { 
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-}
-html {
-    scroll-behavior: smooth;
-}
-    body {
-        background-color: #FFFFFF;
-    }
+@import url('global.css');
 
-.container { 
-    width: 220px;
-    height: 780px;
-    
+body {
+    background-color: #FFFFFF;
+}
+
+.container {
+    max-width: 30%;
+    height: 100%;
     position: fixed;
     top: 0;
-    
     background-color: #2A6EB6;
-    }
+}
+
+#nav-title{
+    line-height: 108px;
+    text-transform: uppercase;
+}
+
+#nav-subtitle{
+    line-height: 48px;
+}
+
+.nav-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-btn {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height:  63px;
+    border: 2px black solid;
+    background-color: #20568F;
+    border-radius: 10px;
+    border-radius: 15px;
+    border: 2px solid #BD8E00;
+    background: #20568F;
+    box-shadow: 0px 0px 0.348px 0px #BD8E00, 0px 0px 0.696px 0px #BD8E00, 0px 0px 2.436px 0px #BD8E00, 0px 0px 4.872px 0px #BD8E00, 0px 0px 8.352px 0px #BD8E00, 0px 0px 14.616px 0px #BD8E00;
+}
+
+.nav-btn a{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
 
 figure {
     width: 169.634px;
@@ -58,15 +87,16 @@ ul li {
     
 }
 
-.diferente{
+#aside-menu-title{
     color: #FFFFFF;
     background: #20568F;
     width: 215px;
     height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     border: 2px black solid;
-    text-align: center;
-    padding-top: 3.5px;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
@@ -74,6 +104,7 @@ ul li {
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    max-width: 100%;
     
 }
 
@@ -581,10 +612,6 @@ h4 {
     line-height: normal;
 }
 
-.geral {
-    position: absolute;
-}
-
 main {
     
     position: absolute;
@@ -601,83 +628,14 @@ article {
     position: absolute;
 }
 
-nav {
-
-    position: absolute;
+nav{
     margin-left: 300px;
 }
 
-.button {
-    width: 200px;
-    height:  63px;
-    border: 2px black solid;
-    position: absolute;
-    left: 850px;
-    top: 4px;
-    margin-top: 90px;
-    background-color: #20568F;
-    border-radius: 10px;
-    border-radius: 15px;
-    border: 2px solid #BD8E00;
-    background: #20568F;
-    box-shadow: 0px 0px 0.348px 0px #BD8E00, 0px 0px 0.696px 0px #BD8E00, 0px 0px 2.436px 0px #BD8E00, 0px 0px 4.872px 0px #BD8E00, 0px 0px 8.352px 0px #BD8E00, 0px 0px 14.616px 0px #BD8E00;
-}
-
-.itens-btn {
-    width: 140.28px;
-    height: 38.35px;
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-left: 40px;
-    margin-top: 10px;
-    position: absolute;
-    background-image: url(/HACKATHON/Imagens/textura\ gold.jpg);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    text-transform: uppercase;
-    
-}
-
-.efeito-btn {
-    width: 41.087px;
-    height: 41.087px;
-    flex-shrink: 0;
-    position: absolute;
-    align-items: center;
-    margin-top: 6px;
-    margin-left: 6px;
-}
-
-.pokemongo {
+footer {
+    display: flex;
     background-color: #2A6EB6;
     color: white;
-    position: absolute;
-  }
-  .pokemonimg {
-    margin-left: 45px;
-    position: absolute;
-    left: 500px;
-  }
-
-  footer {
-    width: 1290px;
-    height: 82px;
-    flex-shrink: 0;
-    margin-right: 2px;
-    position: absolute;
-    margin-top: 12rem;
-  }
-  .rodape {
-    margin-top: 40px;
-    margin-right: 30px;
-    margin-left: 530px;
-  }
-
-  .senai {
-    margin-left: 530px;
-  }
+    width: 100%;
+    height: 100%;
+}
