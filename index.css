@@ -108,7 +108,7 @@ ul li {
     
 }
 
-.g1 {
+.generation-section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -121,74 +121,45 @@ ul li {
 .blue-card {
     width: 287.408px;
     height: 369.413px;
-    flex-shrink: 0;
     border-radius: 40px;
     background: #76bdfe;
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
     margin: 60px;
     padding: 20px;
-
-    /*     text-align: center;
- */
 }
 
-.blue-circle {
+.pokemon-placeholder {
     position: relative;
     top: 66.1px;
     left: 33px;
     width: 180.411px;
     height: 180.411px;
-    flex-shrink: 0;
-    background: #add6fc;
     border-radius: 100px;
     margin-top: -55px;
 }
 
-.blue-circle img {
-    width: 180.34px;
-    height: 181.46px;
-    flex-shrink: 0;
-    position: absolute;
-    left: -10px;
-    margin-top: 5px;
-}
-
-/* p {
-    color: #000;
-    font-family: Rajdhani;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-} */
-
-.blue-name-container {
-    width: 230.758px;
-    height: 36.712px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    border: 1px solid #fff;
+#blue-placeholder{
     background: #add6fc;
 }
 
-h4 {
-    display: flex;
-    width: 164.678px;
-    height: 20.978px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #000;
-    text-align: center;
-    font-family: Rajdhani;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 8px 30px;
+#red-placeholder{
+    background: #ff8a8a;
 }
 
-.blue-number {
+#green-placeholder{
+    background: #67dbbf;
+}
+
+.card-title{
+    width: 14.422rem;
+    height: 36.712px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background: #ffffff46;
+    margin: 0 auto;
+}
+
+.pokemon-id {
     position: absolute;
     color: #000;
     font-family: Rajdhani;
@@ -200,17 +171,15 @@ h4 {
     top: 0px;
 }
 
-.blue-type {
+.pokemon-type-card {
     width: 52.445px;
     height: 14.694px;
     flex-shrink: 0;
     border-radius: 3px;
     border: 1px solid #fff;
-    background: #add6fc;
     position: relative;
     left: 90px;
     bottom: -40px;
-
     color: #000;
     text-align: center;
     font-family: Rajdhani;
@@ -220,21 +189,28 @@ h4 {
     line-height: normal;
 }
 
-.blue-atk {
+#pokemon-type-blue{
+    background: #add6fc;
+}
+
+#pokemon-type-red{
+    background: #ff8a8a;
+}
+
+#pokemon-type-green{
+    background: #67dbbf;
+}
+
+.pokemon-atk {
     width: 81.814px;
     height: 14.685px;
     flex-shrink: 0;
     border-radius: 15px;
     border: 1px solid #fff;
-    background: #add6fc;
+    background: #ffffff46;
     position: relative;
     margin: 100px;
     left: -80px;
-}
-
-.blue-atk p {
-    margin-top: 2px;
-
     color: #000;
     text-align: center;
     font-family: Rajdhani;
@@ -242,23 +218,19 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline;
 }
 
-.blue-atk-charge {
+.atk-charge {
     width: 81.814px;
     height: 14.685px;
     flex-shrink: 0;
     border-radius: 15px;
     border: 1px solid #fff;
-    background: #add6fc;
+    background: #ffffff46;
     position: relative;
     margin: 100px;
     left: -80px;
     top: -90px;
-}
-
-.blue-atk-charge p {
     margin-top: 1px;
     color: #000;
     text-align: center;
@@ -267,23 +239,22 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline;
 }
 
-.blue-sinopse {
+.pokemon-sinopse {
     width: 113px;
     height: 95px;
     flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid #fff;
-    background: #add6fc;
+    background: #ffffff46;
     position: relative;
     margin: 70px;
     left: 60px;
     top: -270px;
 }
 
-.blue-sinopse p {
+.pokemon-sinopse p {
     display: flex;
     width: 90px;
     height: 92px;
@@ -309,70 +280,6 @@ h4 {
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
     margin: 60px;
     padding: 20px;
-    /*     text-align: center;
- */
-}
-
-.red-circle {
-    position: relative;
-    top: 66.1px;
-    left: 33px;
-    width: 180.411px;
-    height: 180.411px;
-    flex-shrink: 0;
-    background: #ff8a8a;
-    border-radius: 100px;
-    margin-top: -55px;
-}
-
-.red-circle img {
-    width: 180.34px;
-    height: 181.46px;
-    flex-shrink: 0;
-    position: absolute;
-    left: -10px;
-    margin-top: 5px;
-}
-
-.red-name-container {
-    width: 230.758px;
-    height: 36.712px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    border: 1px solid #fff;
-    background: #ff8a8a;
-}
-
-.red-number {
-    position: absolute;
-    color: #000;
-    font-family: Rajdhani;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    left: 150px;
-    top: 0px;
-}
-
-.red-type {
-    width: 52.445px;
-    height: 14.694px;
-    flex-shrink: 0;
-    border-radius: 3px;
-    border: 1px solid #fff;
-    background: #ff8a8a;
-    position: relative;
-    left: 90px;
-    bottom: -40px;
-
-    color: #000;
-    text-align: center;
-    font-family: Rajdhani;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .red-atk {
@@ -467,70 +374,6 @@ h4 {
     /*     text-align: center;
  */
 }
-
-.green-circle {
-    position: relative;
-    top: 66.1px;
-    left: 33px;
-    width: 180.411px;
-    height: 180.411px;
-    flex-shrink: 0;
-    background: #67dbbf;
-    border-radius: 100px;
-    margin-top: -55px;
-}
-
-.green-circle img {
-    width: 180.34px;
-    height: 181.46px;
-    flex-shrink: 0;
-    position: absolute;
-    left: -10px;
-    margin-top: 5px;
-}
-
-.green-name-container {
-    width: 230.758px;
-    height: 36.712px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    border: 1px solid #fff;
-    background: #67dbbf;
-}
-
-.green-number {
-    position: absolute;
-    color: #000;
-    font-family: Rajdhani;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    left: 150px;
-    top: 0px;
-}
-
-.green-type {
-    width: 52.445px;
-    height: 14.694px;
-    flex-shrink: 0;
-    border-radius: 3px;
-    border: 1px solid #fff;
-    background: #67dbbf;
-    position: relative;
-    left: 100px;
-    bottom: -40px;
-
-    color: #000;
-    text-align: center;
-    font-family: Rajdhani;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-
 
 .green-atk {
     width: 81.814px;
