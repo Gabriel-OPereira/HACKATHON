@@ -201,6 +201,10 @@ ul li {
     line-height: normal;
 }
 
+#type-left{
+    left: 60px;
+}
+
 #pokemon-type-blue{
     background: #add6fc;
 }
